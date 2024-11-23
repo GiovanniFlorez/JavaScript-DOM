@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda en Tabla</title>
+    <link rel="stylesheet" href="Ejercicio3-style.css">
+</head>
+<body>
+    <div class="formulario">
+        <h2>Diccionario de Palabras</h2>
+        <div class="search-container">
+            <label for="searchInput">Buscar palabra:</label>
+            <input type="text" id="searchInput" placeholder="Buscar palabra...">
+            <button id="searchBtn" class="boton">Buscar</button>
+        </div>
+
+        <div id="resultCount"></div>
+
+        <table id="dictionaryTable">
+            <thead>
+                <tr>
+                    <th>Palabra</th>
+                    <th>Definición</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Perro</td>
+                    <td>Animal que ladra.</td>
+                </tr>
+                <tr>
+                    <td>Gato</td>
+                    <td>Animal que ronronea.</td>
+                </tr>
+                <tr>
+                    <td>Raton</td>
+                    <td>Una plaga.</td>
+                </tr>
+                <tr>
+                    <td>Panda</td>
+                    <td>Oso tonto.</td>
+                </tr>
+                <tr>
+                    <td>Elefante</td>
+                    <td>Animal con trompa.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <a href="../index.html">Volver al Índice</a>
+    </footer>
+    
+    <script src="Ejercicio3-script.js"></script>
+</body>
+</html>
